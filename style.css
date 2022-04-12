@@ -833,6 +833,12 @@ width: 100%;
   }
 
 
+.img-gl:hover{
+  transition: all 1s ease;
+  transform:  scale(1.05) ;
+
+}
+
   .imagen-galeria-1{
 
 grid-area: imagen-galeria-1;
