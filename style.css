@@ -64,17 +64,22 @@ margin: 5px;
     display: flex;
     align-items: center;
     justify-content: space-around;
- margin: 0;
+ margin: 0 0 0 20% 0;
  padding: 0;
  display: flex;
  list-style: none;
  white-space:nowrap;
+
  
 }
  
   
   .menu li a:hover{
-  color: gray;
+  color: black;
+  border-bottom: 3px solid var(--blue-minhaus);
+  transition: all 0.5s ease-in ;
+  background-color: #f6f8fb;
+
  
  
  }
@@ -83,7 +88,7 @@ margin: 5px;
  display: block;
  padding: 15px 20px;
  text-decoration: none;
- color: black;
+ color: rgb(88, 86, 86);
  
 
   }
@@ -264,6 +269,11 @@ text-align: center;
 justify-content: left;
 
 }
+
+
+
+
+
 .btn-minhaus{
   display: flex;
   align-items: center;
@@ -301,7 +311,6 @@ margin: 0;
 }
 
 .menu li a {
-  
   line-height: 60px;
 display: flex;
 flex-direction: column;
@@ -398,7 +407,7 @@ margin-left: 15px;
         margin-right: 2%;
         margin-top: 0.5rem; 
         z-index: 999;
-      
+        
       
     }           
           
@@ -976,19 +985,13 @@ display: none
     width: 24px;
    
   }
-  /* .whatsapp-float:hover img{
-    position: absolute;
-    left: 0;
-   width: 24px; 
- 
-  } */
+
   .whatsapp-float a{
    text-decoration: none;
    color: var(--white);
    font-weight: 500;
     
   }
-
 
    
 
