@@ -273,8 +273,8 @@ justify-content: left;
 
 
 
-/* 
-.btn-minhaus{
+
+/* .btn-minhaus{
   display: flex;
   align-items: center;
 justify-content: center;
@@ -385,11 +385,11 @@ text-align: left;
             }
 }
 
+/* 
+fin media query */
 
 
-
-
-.btn-minhaus{
+ .btn-minhaus{
   display: flex;
   align-items: center;
 justify-content: center;
@@ -420,8 +420,6 @@ outline: 0;
 transform: translateY(3px);
 
 } 
-
-
 
 
 .menu-box img{
@@ -749,23 +747,13 @@ border: solid 1px #ccc;
 padding-top: 10px;
 font-size: 0.8em;
 width: 90%;
+border-radius: 5px;
 
 }
 
-.field{
-  border: solid 1px #ccc;
-  padding-top: 10px;
-  font-size: 0.8em;
-  width: 90%;
-  border-radius: 5px;
-  
+.field:focus{
+ border: 2px solid #5387ac;
   }
-
-  .field:focus{
-    border: solid 2px #5387ac;
-   
-    
-    }
 
 .formulario-contacto h1{
 color: var(--white);
